@@ -7,9 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SelneiumDayTwo {
     public static void main(String[] args) {
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-/* Homework for DayOne
+//Homework for DayOne
          WebDriverManager.chromedriver().setup();
         WebDriver driver =  new ChromeDriver();
         driver.get("https://www.amazon.com/");
@@ -19,7 +17,8 @@ public class SelneiumDayTwo {
         String s_serach = "iPhone 13";
         webElement.sendKeys(s_serach);
         webElement.sendKeys(Keys.ENTER);
-  */
+        
+        driver.quit();
 
 
     }
